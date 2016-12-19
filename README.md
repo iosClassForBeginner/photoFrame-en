@@ -46,6 +46,7 @@
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/photoFrame-en/blob/master/Resourses/4.gif" /></div>
 
 #### 3, Add code blocks in ViewController.swift
+<font color="red"> It's preferable to write following code yourself. It will help you to understand code more. </font>
   
 ```Swift  
 import UIKit
