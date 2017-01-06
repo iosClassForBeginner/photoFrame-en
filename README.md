@@ -59,7 +59,7 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
         
-        // Specify x-axis, y-axis, width, height of the photo frame
+        // Specify x-axis, y-axis, width, height of the image views
         var x = 0 as CGFloat
         let y = 0 as CGFloat
         let w = myScroll.frame.size.width
@@ -80,7 +80,7 @@ class ViewController: UIViewController
         myImageView2.image = UIImage(named: "your-photo-2.jpg")
         myImageView2.contentMode = .scaleAspectFill
         myImageView2.clipsToBounds = true
-        myScroll!.addSubview(myImageView2)
+        myScroll.addSubview(myImageView2)
         
         // 3rd photo
         x += w
